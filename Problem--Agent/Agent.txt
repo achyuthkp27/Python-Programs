@@ -1,0 +1,29 @@
+program-->Agent
+You are a secret agent,and you received a text message to your phone from another secret agent.
+The text message is encrypted you can't read the message properly without decrypting it.
+The received message contains numbers,alphabets(both upper and lower case) and symbols.
+Your task is to decrypt the message.
+
+Note:
+1.You need to flip the whole message.
+
+2.You need to decrypt the message in such a way that if any number is present it should be converted to word form i.e,2->two.
+Number n in the message is between 0 and 9
+n={0:"zero",1:"one",2:"two",3:"three",4:"four,"5:"five",6:"six",7:"seven",8:"eight",9:"nine"}
+
+3.If any symbols are present then all those symbols should be removed 
+
+Input Format:
+First line contains the encrypted message sent by other agent.
+
+Constraints: 
+0<=n<=9
+20<=length(encrypted message)<=200
+
+Assume other agent want to send message-hello we found a suspect in street number two three four
+
+Sample Input:
+4*)32/'r:#e}b&^m!@u=n**/t`e!e~r.'%t,s+-(ni)@t\c/;e-=p@#s.u/s(adn)u#$o^f!)e$#w@#o#@l#$l^%e}h]
+
+Sample output:
+hellowefoundasuspectinstreetnumbertwothreefour
